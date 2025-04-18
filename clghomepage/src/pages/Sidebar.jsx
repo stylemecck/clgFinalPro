@@ -14,11 +14,11 @@ const Sidebar = () => {
         </div>
         <div className="flex flex-col flex-grow px-4 py-4 overflow-y-auto">
           <nav className="flex-1 space-y-2">
-            <a href="#" className="flex items-center px-4 py-3 text-sm font-medium bg-indigo-100 rounded-lg text-indigo-700">
+            <a href="/admindashboard" className="flex items-center px-4 py-3 text-sm font-medium bg-indigo-100 rounded-lg text-indigo-700">
               <BarChart2 className="h-5 w-5 mr-3" />
               Dashboard
             </a>
-            <a href="#" className="flex items-center px-4 py-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg">
+            <a href="/adminproducts" className="flex items-center px-4 py-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg">
               <ShoppingBag className="h-5 w-5 mr-3" />
               Products
             </a>
@@ -26,7 +26,7 @@ const Sidebar = () => {
               <Users className="h-5 w-5 mr-3" />
               Customers
             </a>
-            <a href="#" className="flex items-center px-4 py-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg">
+            <a href="/adminorders" className="flex items-center px-4 py-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg">
               <CreditCard className="h-5 w-5 mr-3" />
               Orders
             </a>
