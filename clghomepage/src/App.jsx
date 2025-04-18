@@ -1,27 +1,20 @@
+// App.jsx
 import React from 'react';
-import Slider from './components/Slider';
-import NewsLatter from './components/NewsLatter';
-import TrendingProducts from './components/TrendingProducts';
-import Categories from './components/Categories';
-import PromoBanner from './components/PromoBanner';
-import Nav from './components/navbar/Nav';
-import Navt from './components/navbar/Navt';
-
-
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LoginPage from './pages/LoginPage';
+import HomePage from './pages/HomePage';
+import RegisterPage from './pages/RegisterPage';
 
 const App = () => {
   return (
-    <>
-    {/* <Navt /> */}
-    <Nav />
-    <Slider />
-    <Categories/>
-    <TrendingProducts />
-    <PromoBanner/>
-    <NewsLatter />
-    </>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;

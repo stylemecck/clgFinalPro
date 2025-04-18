@@ -62,16 +62,5 @@
 }
 
 
-:root {
-    --primary-400: #818cf8;
-    --primary-500: #6366f1;
-    --primary-600: #4f46e5;
-    --secondary-500: #ec4899;
-  }
+
   
-.dark {
-    --primary-400: #a5b4fc;
-    --primary-500: #818cf8;
-    --primary-600: #6366f1;
-    --secondary-500: #f472b6;
-  }
