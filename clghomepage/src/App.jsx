@@ -7,6 +7,7 @@ import RegisterPage from "./pages/RegisterPage";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminSidebar from "./pages/Sidebar";
+import AdminProducts from "./pages/AdminProducts";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           key="admindashboard"
         />
         <Route path="/adminsidebar" element={<AdminSidebar />} />
+      <Route path="/adminproject" element={<AdminProducts />}/>
       </Routes>
     </Router>
   );
