@@ -154,7 +154,7 @@ const Navt = () => {
                   </button>
 
                   {/* Account link */}
-                  <a href="/account" className="p-2 text-black dark:text-white">
+                  <a href="/login" className="p-2 text-black dark:text-white">
                     <User size={20} />
                   </a>
 

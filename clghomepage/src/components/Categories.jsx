@@ -58,7 +58,7 @@ const Categories = () => {
                 <img
                   src={category.image}
                   alt={category.name}
-                  className="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-48 sm:h-56 md:h-72 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
               
