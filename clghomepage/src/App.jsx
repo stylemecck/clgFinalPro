@@ -13,8 +13,8 @@ import Navt from './components/navbar/Navt';
 const App = () => {
   return (
     <>
-    <Navt />
-    {/* <Nav /> */}
+    {/* <Navt /> */}
+    <Nav />
     <Slider />
     <Categories/>
     <TrendingProducts />

@@ -48,7 +48,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center h-16">
 
               {/* Brand */}
-              <a href="/" className="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-500">
+              <a href="/" className="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-500 space-x-0.5">
                 FashionHub
               </a>
 
@@ -67,7 +67,7 @@ const Navbar = () => {
               </div>
 
               {/* Actions */}
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-2 md:space-x-4 lg:space-x-4 ">
                 {/* Search */}
                 <div className="relative">
                   <button onClick={() => setSearchOpen(!searchOpen)} className="p-2 rounded-full hover:bg-gray-200 transition">
