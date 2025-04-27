@@ -8,7 +8,7 @@ const navItems = [
   { name: "Men's", path: "/mens" },
   { name: "Women's", path: "/womens" },
   { name: "Sign In", path: "/login" },
-  { name: "Sign Up", path: "/signup" },
+  { name: "Admin", path: "/AdminDashboard" },
 ];
 
 const Navbar = () => {
