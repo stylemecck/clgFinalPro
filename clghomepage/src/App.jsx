@@ -9,7 +9,7 @@ import AdminSidebar from "./pages/Sidebar";
 import AdminProducts from "./pages/AdminProducts";
 import AdminOrders from "./pages/AdminOrders";
 import CartPage from "./pages/CartPage";
-import Navbar from "./components/navbar/navbar";
+import Navbar from "./pages/Navbar"; 
 
 const App = () => {
   return (
