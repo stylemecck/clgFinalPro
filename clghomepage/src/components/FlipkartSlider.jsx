@@ -6,11 +6,12 @@ import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 
-import slideimg1 from "../assets/banner/1.webp";
-import slideimg2 from "../assets/banner/2.webp";
+import slideimg1 from "../assets/banner/bn1.png";
+import slideimg2 from "../assets/banner/bn2.png";
+import slideimg3 from "../assets/banner/bn3.png";
 
 const FlipkartSlider = () => {
-  const slides = [slideimg1, slideimg2, slideimg2];
+  const slides = [slideimg1, slideimg2, slideimg3];
 
   return (
     <Swiper
