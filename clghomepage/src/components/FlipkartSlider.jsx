@@ -33,7 +33,7 @@ const FlipkartSlider = () => {
         renderBullet: (index, className) =>
           `<span class="${className} custom-bullet"></span>`,
       }}
-      className="w-[98vw] h-[30vh] sm:h-[70vh] md:h-[80vh] lg:h-[90vh] mt-19 relative"
+      className="w-[98vw] h-[30vh] sm:h-[70vh] md:h-[80vh] lg:h-[90vh] mt-2 relative"
     >
       {slides.map((img, index) => (
         <SwiperSlide key={index}>

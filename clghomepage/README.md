@@ -15,3 +15,6 @@ If you are developing a production application, we recommend using TypeScript an
 import 
 npm install swiper
 for slide image in home page
+
+hero icons 
+npm i @heroicons/react
