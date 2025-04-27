@@ -4,6 +4,7 @@ import {
   Check, X, Truck, CreditCard, RefreshCw,
   ChevronLeft, ChevronRight, MoreVertical, Clock,
 } from 'lucide-react';
+import Sidebar from './Sidebar';
 // import Clock from './Clock';  // Adjust the path as needed
 
 
@@ -164,7 +165,9 @@ const AdminOrders = () => {
   ];
 
   return (
-    <div className="p-6 bg-gray-50 min-h-screen">
+    <div className='flex'>
+      <Sidebar />
+    <div className="p-6 bg-gray-50 min-h-screen w-full">
       {/* Header */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
         <h1 className="text-2xl font-bold text-gray-800 mb-4 md:mb-0">Order Management</h1>
@@ -474,6 +477,7 @@ const AdminOrders = () => {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 };
