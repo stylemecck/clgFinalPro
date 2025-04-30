@@ -10,10 +10,17 @@ import Navt from '../components/navbar/Navt';
 import FlipkartSlider from '../components/FlipkartSlider';
 import Navbar from './Navbar';
 
+import slideimg1 from "../assets/banner/bw1.gif";
+import slideimg2 from "../assets/banner/bw2.gif";
+import slideimg3 from "../assets/banner/bm1.gif";
+
 const HomePage = () => {
+
+    const bannerImages = [slideimg1, slideimg2, slideimg3];
+
   return (
     <>
-      <FlipkartSlider />
+      <FlipkartSlider images={bannerImages} />
       <Categories />
       <TrendingProducts />
       <PromoBanner />
