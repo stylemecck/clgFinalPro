@@ -38,6 +38,12 @@ const FlipkartSlider = ({ images = [], links = [] }) => {
                   className="w-full h-full object-fill rounded-lg sm:rounded-xl"
                 />
               </Link>
+              <Link
+                to={links[index] || "#"}
+                className="absolute bottom-10 left-2 md:bottom-30 md:left-12 bg-slate-600 text-white px-4 py-2 md:px-6 md:py-3 text-sm md:text-xl font-medium md:font-semibold rounded-full shadow-md hover:bg-slate-700 transition duration-300"
+              >
+                Grab Now
+              </Link>
             </div>
           </SwiperSlide>
         ))}
@@ -48,4 +54,3 @@ const FlipkartSlider = ({ images = [], links = [] }) => {
 };
 
 export default FlipkartSlider;
-//ishme kuch nahi karna hai  sidha ek components bana ke copy paste

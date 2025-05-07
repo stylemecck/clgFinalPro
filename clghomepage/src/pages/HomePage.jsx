@@ -7,9 +7,13 @@ import PromoBanner from "../components/PromoBanner";
 import FlipkartSlider from "../components/FlipkartSlider";
 
 
-import slideimg1 from "../assets/banner/bw1.gif"; // image ko import kar lena
-import slideimg2 from "../assets/banner/bw2.gif";
-import slideimg3 from "../assets/banner/bm1.gif"; // kahi pe bhi rakho bas yeha pe import kar lena kaam karega chaho toh public wala me bhi rakh sakte ho ya apna se folder structure bana ke 
+import slideimg1 from "../assets/banner/nn1.gif"; // image ko import kar lena
+import slideimg2 from "../assets/banner/nn1.gif";
+import slideimg3 from "../assets/banner/nn1.gif"; // kahi pe bhi rakho bas yeha pe import kar lena kaam karega chaho toh public wala me bhi rakh sakte ho ya apna se folder structure bana ke 
+import FashionSlider from "../components/FashionSlider";
+import Slider from "react-slick";
+import BridalBannerCarousel from "../components/BridalBannerCarousel";
+
 
 const HomePage = () => {
 
@@ -19,7 +23,9 @@ const HomePage = () => {
         images={[slideimg1, slideimg2, slideimg3]} //props ke through image 
         links={["/product/1", "/product/2", "/login"]} // yeha pe link array container hai
       />
+      
 
+      {/* <FlipkartSlider /> */}
       <Categories />
       <TrendingProducts />
       <PromoBanner />
