@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 const FlipkartSlider = ({ images = [], links = [] }) => {
   return (
-    <div className="relative w-[98vw] mt-2 mx-3.5">
+    <div className="relative w-[98vw] mt-2 mx-auto">
       <Swiper
         modules={[Autoplay, EffectFade, Pagination]}
         autoplay={{
