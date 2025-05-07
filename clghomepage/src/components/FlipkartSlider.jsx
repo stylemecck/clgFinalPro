@@ -38,12 +38,19 @@ const FlipkartSlider = ({ images = [], links = [] }) => {
                   className="w-full h-full object-fill rounded-lg sm:rounded-xl"
                 />
               </Link>
-              <Link
+              {/* <Link
                 to={links[index] || "#"}
                 className="absolute bottom-10 left-2 md:bottom-30 md:left-12 bg-slate-600 text-white px-4 py-2 md:px-6 md:py-3 text-sm md:text-xl font-medium md:font-semibold rounded-full shadow-md hover:bg-slate-700 transition duration-300"
               >
                 Grab Now
-              </Link>
+              </Link> */}
+
+<Link
+  to={links[index] || "#"}
+  className="absolute bottom-8 left-4 xs:bottom-10 xs:left-4 sm:bottom-12 sm:left-6 md:bottom-[7.5rem] md:left-12 lg:bottom-[7.5rem] xl:bottom-[7.5rem] bg-slate-600 text-white px-4 py-2 xs:px-5 xs:py-2.5 sm:px-5 sm:py-3 md:px-6 md:py-3 text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl font-medium hover:bg-slate-700 rounded-full shadow-md transition-all duration-300 transform hover:scale-105"
+>
+  Grab Now
+</Link>
             </div>
           </SwiperSlide>
         ))}
