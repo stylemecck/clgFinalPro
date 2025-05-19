@@ -5,6 +5,7 @@ import TrendingProducts from "../components/TrendingProducts";
 import Categories from "../components/Categories";
 import PromoBanner from "../components/PromoBanner";
 import FlipkartSlider from "../components/FlipkartSlider";
+import SliderJs from '../components/Slider/SliderJs';
 
 
 import slideimg1 from "../assets/banner/nn1.gif"; // image ko import kar lena
@@ -19,11 +20,12 @@ const HomePage = () => {
 
   return (
     <>
-      <FlipkartSlider
+      {/* <FlipkartSlider
         images={[slideimg1, slideimg2, slideimg3]} //props ke through image 
         links={["/product/1", "/product/2", "/login"]} // yeha pe link array container hai
-      />
+      /> */}
       
+      <SliderJs/>
 
       {/* <FlipkartSlider /> */}
       <Categories />
