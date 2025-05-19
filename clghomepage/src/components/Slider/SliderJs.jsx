@@ -51,7 +51,7 @@ export default function Slider() {
   };
 
   return (
-    <div className="relative w-full h-[500px] md:h-[90vh] overflow-hidden ">
+    <div className="relative w-full h-[500px] md:h-[80vh] overflow-hidden ">
       <div
         className="w-full h-full bg-cover bg-center duration-700 ease-in-out"
         style={{ backgroundImage: `url(${slides[currentIndex].image})` }}
